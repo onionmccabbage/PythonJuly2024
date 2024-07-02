@@ -25,7 +25,12 @@ def game():
     guess = 999 # set an initial value that is out of range
     # keep the game running
     while guess != target:
-        guess = int(input('guess:')) # make sure it's an int
+        # we really need to validate the input...
+        guess_text = input('guess:')
+        if guess_text.isnumeric():
+            guess_int = int(guess_text)
+        else:
+            print('try again')
         # conditionally act on the guess
         if guess == target: # did they get it right
             print(f'correct it was {target}' )

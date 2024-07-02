@@ -18,6 +18,7 @@ Welcome and Introductions
     - Course Resources: recordings: usr neueda pwd c0nygre
     - python.org documentation
 
+q - fix the review1 solution,,,,,
 q - how embed SQL scripts in Py <<<<
 
 Know your IDE
