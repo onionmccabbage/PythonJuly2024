@@ -2,7 +2,7 @@
 # then write these to a text file
 
 def askName():
-    '''retrieve a valid name: a non-emty string'''
+    '''retrieve a valid name: a non-empty string'''
     n = ''
     while n=='':
         n = input('Please enter a name: ')
@@ -12,12 +12,13 @@ def askHours():
     '''retrieve valid hours'''
     hrs = 0
     while hrs <= 0:
-        h = input('Please enter how many hours')
+        h = input('Please enter how many hours: ')
         #validate it is a float
         try:
             hrs = float(h)
         except:
             pass
+        return h # we must remember ot actually return a value!!!!
 
 def commitData(n, h):
     '''nicely format and write to a file'''
