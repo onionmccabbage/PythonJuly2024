@@ -11,6 +11,7 @@ def checkIfPrime(n):
 if __name__ == '__main__':
     # we may exercise the code to see if it works as expected
     # this code only runs when we execute thsi module directly (not if imported)
+    # we often write code simple to exercise this module and check it operates as we excpect
     c = 43
     answer = checkIfPrime(c) # True
     print(f'The value {c} is prime:{answer} (inside util.py)')
