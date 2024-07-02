@@ -28,7 +28,8 @@ def game():
         # we really need to validate the input...
         guess_text = input('guess:')
         if guess_text.isnumeric():
-            guess_int = int(guess_text)
+            # guess_int = int(guess_text)
+            guess = int(guess_text)
         else:
             print('try again')
         # conditionally act on the guess
