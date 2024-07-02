@@ -12,11 +12,18 @@ def printToFile(t):
 def writeToFile(t):
     '''write some text to a file'''
     fout = open('my_file.txt', 'at')
+    # when we use write, there is no additional new-line character
     fout.write(t)
     fout.close()
 
+def elegantOutput(t):
+    '''often we use with to output to files'''
+    with open('my_file.txt', 'at') as fout:
+        fout.write(t)
+    # when the with block ends it will automatically close the file
 
 if __name__ == '__main__':
     words = 'here is some text to be written to a file'
     # printToFile(words)
-    writeToFile(words)
+    # writeToFile(words)
+    elegantOutput(words)
