@@ -1,2 +1,79 @@
 Python Introduction
 ===================
+
+July 2024
+
+Toby Dussek
+
+9:30 start
+11:00 coffee until 11:15
+12:30 Lunch until 1:30
+3:00 tea until 3:15
+4:30 end
+
+Welcome and Introductions
+    - What you currently know
+    - What you want to know
+    - pre-course forms
+    - Course Resources: recordings: usr neueda pwd c0nygre
+    - python.org documentation
+
+Know your IDE
+    - Navigating Projects
+    - Editing Files
+    - Setting the interpreter for different python versions
+    - Debugging
+    - Shortcuts
+
+Python code essentials
+    - Learn effective debugging techniques for identifying and resolving errors
+    - Foundational Concepts: Datatypes, Variables, and Branching Constructs
+    - functions, arguments
+    - structure
+    - conditionals, loops
+    - range object
+    - after lunch: review exercise
+    - how can we show numbers to a certain acuracy
+    - while, break, quit
+    - def (function)
+
+Python datatypes and variables
+    - Master the application of branching constructs for decision-making in code
+    - Main Collection Types: List, Tuple, Set, Dict
+
+Python's primary collection types
+    - Add, remove elements, and iterate over lists, tuples, sets, and dictionaries.
+    - Other python Collections
+
+Object-Oriented Programming
+    - Learn the principles and syntax of Object-Oriented Programming.
+    - Understand how to define and use classes and objects in Python.
+
+Creating Functions, Modules, and Packages
+    - functions and classes are written inside modules (files) which are placed in packages (folders)
+    - Explore the creation and utilization of functions for modular code.
+    - Understand the concept of modules and packages for organizing and structuring code.
+    - read write files inc write to csv
+
+Introduction to Functional Programming
+    - Familiarize yourself with functional programming concepts in Python.
+    - Learn how to use lambdas, higher-order functions, and map/reduce/filter for concise and expressive code.
+    - Another review exercise
+
+Packages
+    - just a folder to gather related modules
+    - might contain __init__.py which is no longer needed
+
+Future - Jupyter, database, API loading over http, threading, microservices
+architecture and best practice, design patterns. Also testing
+
+Skillnet NI forms
+- make sure these are completed
+
+for further reference see learnpython.org
+
+All my code will be here
+    https://github.com/onionmccabbage/PythonJuly2024
+
+
+End of course feedback
