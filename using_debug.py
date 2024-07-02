@@ -18,11 +18,12 @@ def askHours():
             hrs = float(h)
         except:
             pass
-        return h # we must remember ot actually return a value!!!!
+        return h # we must remember to actually return a value!!!!
 
 def commitData(n, h):
     '''nicely format and write to a file'''
-    output = f'{n} spent {h} hours volunteering'
+    # we may format numbers to a particular precision
+    output = f'{n} spent {h:0.2f} hours volunteering'
     fout = open('vol.txt', 'at')
     print(output, file=fout)# or any of the options
 
