@@ -20,4 +20,4 @@ def checkNum():
 # we may call our functions whenever we like
 result = checkEven(42) # at this point our funtion will be executed
 print(result)
-print(  checkNum()  )
+print(checkNum())
