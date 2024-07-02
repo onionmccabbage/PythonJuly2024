@@ -35,10 +35,10 @@ Python code essentials
     > structure
     > conditionals, loops
     > range object
-    - after lunch: review exercise
+    > after lunch: review exercise
     - how can we show numbers to a certain acuracy
     - while, break, quit
-    - def (function)
+    > def (function)
 
 Python datatypes and variables
     - Master the application of branching constructs for decision-making in code
