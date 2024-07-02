@@ -10,6 +10,14 @@ def askName():
 
 def askHours():
     '''retrieve valid hours'''
+    hrs = 0
+    while hrs <= 0:
+        h = input('Please enter how many hours')
+        #validate it is a float
+        try:
+            hrs = float(h)
+        except:
+            pass
 
 def commitData():
     '''nicely format and write to a file'''
