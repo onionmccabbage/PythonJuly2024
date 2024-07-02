@@ -18,11 +18,15 @@ def writeToFile(t):
 
 def elegantOutput(t):
     '''often we use with to output to files'''
-    # 'wt' will (over)write text
-    # 'xt' is for exclusive access (fails if the file already exists)
-    with open('my_file.txt', 'xt') as fout:
-        fout.write(t)
-    # when the with block ends it will automatically close the file
+    # whenever we deal with external assets we should consider exception handling
+    try:
+        # 'wt' will (over)write text
+        # 'xt' is for exclusive access (fails if the file already exists)
+        with open('my_file.txt', 'xt') as fout:
+            fout.write(t)
+        # when the with block ends it will automatically close the file
+    except FileExistsError as fe:
+        print(f'The file already exists {fe}')
 
 if __name__ == '__main__':
     words = 'here is some text to be written with a file'
