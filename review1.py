@@ -1,6 +1,14 @@
 # Python review exercise: guess the random number between 0-100
 from random import randint # we need a way to make random numbers
 
+# a function to see if a value is a square number
+def isSquare(n):
+    '''check if a number is a square number'''
+    if (n*n)**0.5 == n: # taking the **0.5 power is the square root
+        return True
+    else:
+        return False
+
 def game():
     ''' ask user to guess a random integer 0-100 '''
     target = randint(0,100) # up to 100 inclusive
