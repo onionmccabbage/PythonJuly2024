@@ -77,5 +77,8 @@ for further reference see learnpython.org
 All my code will be here
     https://github.com/onionmccabbage/PythonJuly2024
 
+On the coding topic, this is very useful, you can read afterwards: https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29
+https://dev.to/favourmark05/writing-clean-code-best-practices-and-principles-3amh
+
 
 End of course feedback
