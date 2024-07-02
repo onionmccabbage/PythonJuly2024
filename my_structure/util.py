@@ -9,4 +9,5 @@ def checkIfPrime(n):
     
 # we may exercise the code to see if it works as expected
 c = 43
-print(checkIfPrime(c)) # True
+answer = checkIfPrime(c) # True
+print(f'The value {c} is prime:{answer} (inside util.py)')

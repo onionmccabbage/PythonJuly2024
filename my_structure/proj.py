@@ -11,4 +11,7 @@ def makeRandomInt():
 n = makeRandomInt() # this will grab a random integer
 print(n)
 # we can use our utility fnction to check if the random number is alaos a prime number
-
+isPrime = util.checkIfPrime(n)
+# we may choose to format the printed output
+# f'' creates a formatted string. We may inject any value using {}
+print(f'The random integer {n} is prime:{isPrime}')
