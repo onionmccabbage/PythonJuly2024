@@ -19,10 +19,13 @@ def askHours():
         except:
             pass
 
-def commitData():
+def commitData(n, h):
     '''nicely format and write to a file'''
+    output = f'{n} spent {h} hours volunteering'
+    fout = open('vol.txt', 'at')
+    print(output, file=fout)# or any of the options
 
 if __name__ == '__main__':
     n = askName()
     h = askHours()
-    commitData()
+    commitData(n, h)
