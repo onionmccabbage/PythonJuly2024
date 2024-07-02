@@ -25,18 +25,18 @@ Know your IDE
     - Navigating Projects
     > Editing Files
     > Setting the interpreter for different python versions
-    - Debugging
+    > Debugging
     - Shortcuts
 
 Python code essentials
-    - Learn effective debugging techniques for identifying and resolving errors
+    > Learn effective debugging techniques for identifying and resolving errors
     > Foundational Concepts: Datatypes, Variables, and Branching Constructs
     > functions, arguments
     > structure
     > conditionals, loops
     > range object
     > after lunch: review exercise
-    - how can we show numbers to a certain acuracy
+    > how can we show numbers to a certain acuracy
     - while, break, quit
     > def (function)
 
