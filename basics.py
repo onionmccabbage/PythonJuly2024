@@ -32,3 +32,10 @@ for i in s:
     
 for i in t: # the colon indicates a clock of code
     print(i) # every line within the block of code must be indented
+
+# a set is a collection of unique data members
+my_set = {5, 7, 3, 9, 22, -6, 0, 3, 7, 5}
+print(my_set, type(my_set))
+# a dictionary is a non-indexed collection of key-value pairs
+d = {'n':'Floella', 'level':'admin', 'auth':True, 'years':32}
+print(d, type(d))
