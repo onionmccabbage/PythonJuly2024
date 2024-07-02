@@ -19,7 +19,7 @@ Welcome and Introductions
     - python.org documentation
 
 q - fix the review1 solution,,,,,
-q - how embed SQL scripts in Py <<<<
+> how embed SQL scripts in Py <<<<
 
 Know your IDE
     - Navigating Projects
