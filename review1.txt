@@ -1,4 +1,4 @@
-Review 1
+Review 1 50 minutes-ish (until 2:25)
 ========
 Ask the user to enter a guess, until they guess correctly 
 (Guess an integer between 0 and 100)
