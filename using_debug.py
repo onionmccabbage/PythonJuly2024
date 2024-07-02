@@ -18,7 +18,8 @@ def askHours():
             hrs = float(h)
         except:
             pass
-        return h # we must remember to actually return a value!!!!
+        # remember to return the numeric value (not the string value)
+        return hrs # we must remember to actually return a value!!!!
 
 def commitData(n, h):
     '''nicely format and write to a file'''
