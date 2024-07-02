@@ -2,7 +2,7 @@ import sqlite3
 
 def readDB():
     '''read and display everything in our database'''
-    conn = sqlite3.connect('my-db')
+    conn = sqlite3.connect('my_db')
     curs = conn.cursor()
     st = '''
     SELECT creature, qty, cost FROM zoo
