@@ -8,7 +8,7 @@ def myLoop():
         r = input('Please enter a value')
         q = r.upper() # force the string to uppercase (also q.lower())
         if q == 'Q':
-            break
+            break  # or quit, which ends the module
         # r = randint(0,10)
         else:
             print(f'{r} in uppercase is {q}')
