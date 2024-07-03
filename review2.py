@@ -4,7 +4,7 @@
 def writeWeatherFile(report):
     '''commit the report string to a text file'''
     with(open ('weather_reports.txt', 'at')) as fout:
-        fout.write(f'{report.showWeatherReport()}\n')
+        fout.write(f'{report.showWeatherReport()}\n') # \n will insert a new line character
 
 def readWeatherFile():
     '''retrieve all the reports from a text file'''
@@ -45,7 +45,7 @@ class Weather():
         return self.__temp
     @temp.setter
     def temp(self, new_temp):
-        if type(new_temp) in (int, float):
+        if type(new_temp) in (int, float): # either int or float will do
             self.__temp = new_temp
         else:
             self.__temp = 12 # a reasonable default
