@@ -37,20 +37,22 @@ Python code essentials
     > range object
     > after lunch: review exercise
     > how can we show numbers to a certain acuracy
-    - while, break, quit
+    > while, break, quit
     > def (function)
 
 Python datatypes and variables
-    - Master the application of branching constructs for decision-making in code
-    - Main Collection Types: List, Tuple, Set, Dict
+    > Master the application of branching constructs for decision-making in code
+    > Main Collection Types: List, Tuple, Set, Dict
 
 Python's primary collection types
-    - Add, remove elements, and iterate over lists, tuples, sets, and dictionaries.
-    - Other python Collections
+    > Add, remove elements, and iterate over lists, tuples, sets, and dictionaries.
+    > Other python Collections
+    > the PEP-8 style guide is handy
+      https://peps.python.org/pep-0008/
 
 Object-Oriented Programming
-    - Learn the principles and syntax of Object-Oriented Programming.
-    - Understand how to define and use classes and objects in Python.
+    > Learn the principles and syntax of Object-Oriented Programming.
+    > Understand how to define and use classes and objects in Python.
 
 Creating Functions, Modules, and Packages
     - functions and classes are written inside modules (files) which are placed in packages (folders)
