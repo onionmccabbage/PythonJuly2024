@@ -28,16 +28,40 @@ class Volunteer:
             self.__name = new_name # all good, we can store the name
         else:
             raise TypeError('Name must be a non-empty string')
+    @property
+    def hours(self):
+        return self.__hours
+    @hours.setter
+    def hours(self, new_hours):
+        '''hours must be a positive number'''
+        if type(new_hours)==float and new_hours > 0:
+            self.__hours = new_hours
+        else:
+            self.__hours = 0 # a sensible default
     # we may also give our class methods (stuff it can do)
     def totalGain(self):
         '''calculate the total of hours*rate'''
         gain = self.hours*self.rate
         return gain
+    # build the getter and setter to validate the rate (same as hours)
+    @property
+    def rate(self):
+        return self.__rate 
+    @rate.setter
+    def rate(self, new_rate):
+        '''rate must be a positive number'''
+        if type(new_rate)==float and new_rate > 0:
+            self.__rate = new_rate
+        else:
+            self.__rate = 0
 
 if __name__ == '__main__':
     # we may have as many instances of a class as we need
     e = Volunteer('Edith', 36.2, 6.0) # we now have an instance of our class
     f = Volunteer('Floella', 12.7, 3.6) # ...another instance
     print(f'{e.name} did {e.hours} voluntary work at {e.rate} earning €{e.totalGain():0.2f}')
-
+    # here we check our validation is working
+    # e.name = True # this should fail
+    e.hours = -7 # this should default to 0
+    print(e.hours)
 
