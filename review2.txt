@@ -1,5 +1,7 @@
-Review 2
+Review 2 1hr (until 2:40)
 ========
+Ask for help, look online, talk to each other
+
 (Feel free to build a class for your OWN data)
 Write a class to encapsulate a weather report for a location 
 You can decide on any properties you like, but location, temperature and description would be good
@@ -10,6 +12,7 @@ e.g. Dublin, cloudy, 14 degrees   Letterkenny, sunny, 17 degrees
 Print the weather reports using formatted strings
 
 Add a method to the class which returns a nicely formatted weather report for that location
+(maybe this could be your own __str__ method)
 
 There will be an oportunity to show what you have built
 
@@ -18,3 +21,7 @@ Optional
 Find a way to validate location as a string of 2 or more characters
 Write the data for each of your weather reports to a text file (append each new weather report)
 Also find a way to read back and nicely display the weather reports
+(Alternative: write to and retrieve from a sqlite3 database)
+
+Extend the Weather class to a new class that includes a time (use datetime.datetime.now())
+The time-stamp would indicate when the weather report was recorded
