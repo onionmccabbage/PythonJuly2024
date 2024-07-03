@@ -20,6 +20,16 @@ def useMap():
     result_list = map(addThem, values, values) # 0+0, 1+1, 2+2...
     return result_list # we have a list of the sum of each of the list items
 
+# suppose volunteers have gained income and we need to augment with company-provided extra
+def calcV(x, y):
+    '''for each voluntary gain x the company will augment with y'''
+    total = map(addThem, x, y)
+    return total
+
+# filter lets us apply a simple function repeatedly to filter values
+def useFilter():
+    ''''''
+
 # we may also choose to declare classes...
 # (none needed here)
 
@@ -28,3 +38,8 @@ if __name__ == '__main__':
     r = useMap() # we have a map object (which is iterable)
     for i in r: # iterate over the resulting map object
         print(i)
+
+    t = calcV((33, 44, 55), (16.5, 22, 27.5))
+    for i in t:
+        print(i)
+    
