@@ -1,0 +1,20 @@
+Review 2
+========
+(Feel free to build a class for your OWN data)
+Write a class to encapsulate a weather report for a location 
+You can decide on any properties you like, but location, temperature and description would be good
+Validate location (non-empty string) temperature (float) and description (non-empty string)
+
+Exercise the code by making several instances of the weather class (for a few locations)
+e.g. Dublin, cloudy, 14 degrees   Letterkenny, sunny, 17 degrees
+Print the weather reports using formatted strings
+
+Add a method to the class which returns a nicely formatted weather report for that location
+
+There will be an oportunity to show what you have built
+
+Optional
+========
+Find a way to validate location as a string of 2 or more characters
+Write the data for each of your weather reports to a text file (append each new weather report)
+Also find a way to read back and nicely display the weather reports

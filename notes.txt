@@ -8,7 +8,7 @@ Toby Dussek
 9:30 start
 11:00 coffee until 11:15
 12:30 Lunch until 1:30
-3:00 tea until 3:17
+3:00 tea until 3:15
 4:30 end
 
 Welcome and Introductions
@@ -18,7 +18,7 @@ Welcome and Introductions
     - Course Resources: recordings: usr neueda pwd c0nygre
     - python.org documentation
 
-q - fix the review1 solution....
+> fix the review1 solution....
 > how embed SQL scripts in Py
 
 Know your IDE
@@ -55,9 +55,9 @@ Object-Oriented Programming
     > Understand how to define and use classes and objects in Python.
 
 Creating Functions, Modules, and Packages
-    - functions and classes are written inside modules (files) which are placed in packages (folders)
-    - Explore the creation and utilization of functions for modular code.
-    - Understand the concept of modules and packages for organizing and structuring code.
+    > functions and classes are written inside modules (files) which are placed in packages (folders)
+    > Explore the creation and utilization of functions for modular code.
+    > Understand the concept of modules and packages for organizing and structuring code.
     - read write files inc write to csv
 
 Introduction to Functional Programming
@@ -66,8 +66,8 @@ Introduction to Functional Programming
     - Another review exercise
 
 Packages
-    - just a folder to gather related modules
-    - might contain __init__.py which is no longer needed
+    > just a folder to gather related modules
+    > might contain __init__.py which is no longer needed
 
 Future - Jupyter, database, API loading over http, threading, microservices
 architecture and best practice, design patterns. Also testing
