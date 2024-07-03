@@ -20,10 +20,10 @@ Welcome and Introductions
 
 > fix the review1 solution....
 > how embed SQL scripts in Py
-q - no overloading but....
-q - passing in a dict...
-q - check for int or float
-q - iterate over a dict
+> no overloading but we can act according to type
+> passing in a dict
+> check for int or float using if type() in (int, float)
+> iterate over a dict
 
 Know your IDE
     - Navigating Projects
