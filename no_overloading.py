@@ -23,6 +23,9 @@ def demoFn(args):
         for (k,v) in args.items(): # (k,v) will reveal each key and value in the dict
             print(f'Item {k} contains {v}')
 
+# NB empty lines have no effect - they neither improve or reduce performance
+
+
 if __name__ == '__main__':
     # we may cal our function and pass in a simple number
     demoFn(3)
