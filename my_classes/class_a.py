@@ -16,7 +16,7 @@ class Volunteer:
     def __init__(self, n, h, r): # a bit like a constructor in Java
         self.name = n # self refers to whatever instance we are building
         self.hours = h # NB each property may be of ANY data type (number, str, list, tuple, dict...)
-        self.rate = r
+        self.rate = r # NB this calls our rate setter function
     # we declare properties in order to validate our data
     @property # this is called a decorator
     def name(self): # this is the property getter
@@ -64,4 +64,9 @@ if __name__ == '__main__':
     # e.name = True # this should fail
     e.hours = -7 # this should default to 0
     print(e.hours)
+    # whenever we try to work with class properties, they will actually use the get/set methods
+    f.rate = -88 # validation fails, so defautls to zero
+    g = Volunteer('Greta', 'oops', -99) # this will fail the validation
+    print(g.hours, g.rate)
+
 
