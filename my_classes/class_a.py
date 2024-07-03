@@ -55,6 +55,10 @@ class Volunteer:
         else:
             self.__rate = 0
 
+# what does Python think this module is called.....?
+print(f'Python has assigned the following name to this module: {__name__}') # Python will ALWAYS assign a name to the running module
+
+
 if __name__ == '__main__':
     # we may have as many instances of a class as we need
     e = Volunteer('Edith', 36.2, 6.0) # we now have an instance of our class
