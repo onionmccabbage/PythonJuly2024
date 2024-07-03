@@ -6,6 +6,8 @@ v_d = {'name':'Edith', 'hours':34.2, 'rate':6.0}
 v_l[1] = 'nonsense' # oh dear...
 v_d['rate'] = -7 # oops
 
+# in Python everything is an object
+
 # a class gives us the chance to validate data and ensure rigour
 # class Volunteer: # we may implicitly inherit from object
 # class Volunteer(): # we may implicitly inherit from object
