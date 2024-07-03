@@ -6,8 +6,8 @@ class VolunteerGroup(Volunteer):
     '''we now have all the properties and methods inherited from 'Volunteer' '''
     def __init__(self, n, h, r, num_people): # a group is several people
         # we call the __init__ of the parent class
-        super().__init__(n ,h, r)
-        self.num_people = num_people # remember - this calls our setter function
+        # super().__init__(n ,h, r)
+        # self.num_people = num_people # remember - this calls our setter function
     @property
     def num_people(self):
         return self.__num_people # return the mangled value
@@ -18,7 +18,6 @@ class VolunteerGroup(Volunteer):
             self.__num_people = new_num_people
         else:
             self.__num_people = 2 # sensible default
-
 
 # what does Python think this module is called.....?
 print(f'Python has assigned the following name to this module: {__name__}') # Python will ALWAYS assign a name to the running module
