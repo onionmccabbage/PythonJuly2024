@@ -65,8 +65,8 @@ Creating Functions, Modules, and Packages
     > read write files inc write to csv
 
 Introduction to Functional Programming
-    - Familiarize yourself with functional programming concepts in Python.
-    - Learn how to use lambdas, higher-order functions, and map/reduce/filter for concise and expressive code.
+    > Familiarize yourself with functional programming concepts in Python.
+    > Learn how to use lambdas, higher-order functions, and map/reduce/filter for concise and expressive code.
     - Another review exercise
 
 Packages
@@ -83,6 +83,9 @@ for further reference see learnpython.org
 
 All my code will be here
     https://github.com/onionmccabbage/PythonJuly2024
+Recordings:
+    https://s3.eu-west-1.amazonaws.com/neueda.conygre.com/Sites/Optum_Introduction_to_Python_NOF264/site/index.html
+    username neueda pwd c0nygre
 
 On the coding topic, this is very useful, you can read afterwards: https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29
 https://dev.to/favourmark05/writing-clean-code-best-practices-and-principles-3amh
