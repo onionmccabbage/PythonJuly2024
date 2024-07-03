@@ -28,7 +28,10 @@ def calcV(x, y):
 
 # filter lets us apply a simple function repeatedly to filter values
 def useFilter():
-    ''''''
+    '''apply a function to filter results'''
+    r = range(-9, 10)
+    odds = filter(isOdd, r) # check each value in the range to see if it is odd
+    return odds
 
 # we may also choose to declare classes...
 # (none needed here)
@@ -41,5 +44,9 @@ if __name__ == '__main__':
 
     t = calcV((33, 44, 55), (16.5, 22, 27.5))
     for i in t:
+        print(i)
+
+    o = useFilter()
+    for i in o:
         print(i)
     
