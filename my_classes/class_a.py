@@ -7,7 +7,9 @@ v_l[1] = 'nonsense' # oh dear...
 v_d['rate'] = -7 # oops
 
 # a class gives us the chance to validate data and ensure rigour
-class Volunteer:
+# class Volunteer: # we may implicitly inherit from object
+# class Volunteer(): # we may implicitly inherit from object
+class Volunteer(object): # we may explicitly inherit from object
     '''This class will encapsulate a volunteer
     Properties: name (a non-empty string)
     hours (a positive float)
