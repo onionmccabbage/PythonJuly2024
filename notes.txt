@@ -87,7 +87,8 @@ Recordings:
     https://s3.eu-west-1.amazonaws.com/neueda.conygre.com/Sites/Optum_Introduction_to_Python_NOF264/site/index.html
     username neueda pwd c0nygre
 
-On the coding topic, this is very useful, you can read afterwards: https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29
+On the coding topic, this is very useful, you can read afterwards: 
+https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29
 https://dev.to/favourmark05/writing-clean-code-best-practices-and-principles-3amh
 
 
