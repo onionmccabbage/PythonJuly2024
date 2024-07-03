@@ -13,13 +13,18 @@ def isOdd(n):
     else:
         return False
 
-
-
-
+# Python provides 'map' as a higher order function to use other functions
+def useMap():
+    '''we will map all of a collection of values onto one of our utility functions'''
+    values = range(0,10) #start, stop-before
+    result_list = map(addThem, values, values) # 0+0, 1+1, 2+2...
+    return result_list # we have a list of the sum of each of the list items
 
 # we may also choose to declare classes...
 # (none needed here)
 
 
 if __name__ == '__main__':
-    pass
+    r = useMap() # we have a map object (which is iterable)
+    for i in r: # iterate over the resulting map object
+        print(i)
